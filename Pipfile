@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+
+[scripts]
+install = "pip install -e ."
+uninstall = "python setup.py develop -u"
+build = "python setup.py sdist"
+#hello = "python slowcat/hello.py"
